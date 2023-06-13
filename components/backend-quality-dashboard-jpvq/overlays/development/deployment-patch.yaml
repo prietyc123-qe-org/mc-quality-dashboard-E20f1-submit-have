@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-jpvq
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pkumari_org/multi-comp-e2e-aywr-tenant/mc-quality-dashboard/backend-quality-dashboard-jpvq@sha256:0b179a2b81c92298a3140fde2fb93f7c17fdb7d25035eaa7a38f0bbe969bb794
+        name: container-image
+        resources: {}
+status: {}
