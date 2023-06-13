@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-jpvq
     spec:
       containers:
-      - image: image
+      - image: quay.io/pkumari_org/multi-comp-e2e-aywr-tenant/mc-quality-dashboard/backend-quality-dashboard-jpvq@sha256:0b179a2b81c92298a3140fde2fb93f7c17fdb7d25035eaa7a38f0bbe969bb794
         imagePullPolicy: Always
         name: container-image
         ports:
